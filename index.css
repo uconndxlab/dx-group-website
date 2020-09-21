@@ -1,0 +1,188 @@
+p{
+    font-family: 'Cabin', sans-serif!important;
+    font-size: 16px!important;
+    line-height: 32px!important;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px!important;
+    color: black;
+    font-weight: 600!important;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px!important;
+}
+/*============ navbar =============*/
+.navbar{
+    margin-top: 50px;
+}
+
+.navbar-light .navbar-nav a.nav-link, a.navbar-brand{
+    color: black;
+    font-family: 'Cabin', sans-serif;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 2rem!important;
+}
+}
+
+
+/*============= header image =============*/
+.header-text{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-image: url(img/square-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    font-size: 46px!important;
+    
+}
+
+@media(min-width:768px){
+    h1{
+        color: black;
+        font-family: 'Cabin', sans-serif;
+        font-size: 60px!important;
+    }
+    .header-text{
+        padding-top: 97px;
+        padding-bottom: 97px;
+    }
+}
+@media(min-width:991px){
+h1{
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    font-size: 90px!important;
+}
+
+.header-text{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+}
+
+/*================ intro text ================*/
+.intro-text h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: black;
+    margin-top: 150px;
+    padding-left: 0px;
+}
+
+span.blue{
+    color: #4463fc;
+}
+
+.intro-text p{
+    margin-top: 30px;
+    line-height: 32px;
+    padding-left: 0px;
+}
+
+.intro-text{
+    margin: 60px 0px;
+}
+
+/*============== capabilities =============*/
+.capabilities{
+    background-color: #f7f7f7;
+    padding:80px 0px
+}
+
+.capabilities hr{
+    border-bottom: 3px solid #4463fc;
+    width: 100px;
+    margin-left: 0;
+    margin-top: 8px;
+}
+
+.capabilities-col .row .col{
+    margin-bottom: 30px;
+}
+
+
+button.btn.btn-primary {
+    font-size: 16px;
+    padding: 8px 22px;
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15px;;
+}
+
+
+/*========= fees ============*/
+.fees{
+    padding:80px 0px
+}
+
+.fees td{
+    font-family: 'Cabin', sans-serif!important;
+    font-size: 16px!important;
+    padding-left: 15px!important;
+}
+
+/*========== team ==========*/
+.team{
+    padding: 80px 0px;
+    background-color: black;
+    font-size: 30px!important;
+}
+
+.team h2{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.person #name{
+    color:black;
+    margin-top: 12px;
+}
+
+.person p#title{
+    color:black;
+    margin-bottom: 0px;
+    line-height: 21px!important;
+}
+
+.person p{
+    margin-bottom: 0px;
+}
+
+.person a#email{
+    color: black;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0px;
+}
+
+.person-att{
+    padding: 20px; 
+    background: white;
+    width: 250px;
+}
+
+.person{
+    margin: 0px 40px 50px 0px
+    
+}
+
+.person img{
+    width: 250px;
+}
+
+.team .row{
+    justify-content: center;
+}
