@@ -5,24 +5,24 @@
 <style type="text/css">
 	.st0{fill:none;}
 	.st1{fill:#4463FC;}
-	.st2{fill:#F4F4F4;}
-	.st3{fill:#E8E8E8;}
-	.st4{fill:#EAEAEA;}
-	.st5{fill:#FFE74C;}
-	.st6{fill:#FF5964;}
-	.st7{fill:#6BF178;}
+	.st2{fill:#EAEAEA;}
+	.st3{fill:#F4F4F4;}
+	.st4{fill:#FFE74C;}
+	.st5{fill:#FF5964;}
+	.st6{fill:#6BF178;}
+	.st7{fill:#E8E8E8;}
 </style>
 <rect x="1230.4" y="580.8" class="st0" width="0" height="2.5"/>
 <rect x="1128" y="79.6" class="st1" width="73" height="73"/>
-<rect x="1075" y="152.6" class="st2" width="53" height="53"/>
-<rect x="397" y="62.6" class="st3" width="53" height="53"/>
-<rect x="651" y="391" class="st4" width="41" height="41"/>
-<rect x="101" y="446" class="st2" width="53" height="53"/>
-<rect x="666" y="140.6" class="st4" width="53" height="53"/>
-<rect x="498" y="312" class="st2" width="53" height="53"/>
-<rect x="987" y="318" class="st2" width="53" height="53"/>
-<rect x="349" y="13.6" class="st5" width="49" height="49"/>
-<rect x="945" y="371" class="st6" width="41" height="41"/>
-<rect x="154" y="405" class="st7" width="41" height="41"/>
-<rect x="60" y="106.6" class="st4" width="41" height="41"/>
+<rect x="666" y="140.6" class="st2" width="53" height="53"/>
+<rect x="498" y="312" class="st3" width="53" height="53"/>
+<rect x="349" y="13.6" class="st4" width="49" height="49"/>
+<rect x="945" y="371" class="st5" width="41" height="41"/>
+<rect x="154" y="405" class="st6" width="41" height="41"/>
+<rect x="651.9" y="391" class="st2" width="41" height="41"/>
+<rect x="101" y="446" class="st3" width="53" height="53"/>
+<rect x="986" y="318" class="st3" width="53" height="53"/>
+<rect x="1075" y="152.6" class="st3" width="53" height="53"/>
+<rect x="60" y="106.6" class="st2" width="41" height="41"/>
+<rect x="398" y="62.6" class="st7" width="50.5" height="50.5"/>
 </svg>

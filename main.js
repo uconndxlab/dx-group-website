@@ -17,6 +17,6 @@ var typeTimer = setInterval(function() {
         p.innerHTML = str
         n = 0;
       };
-    }, 500);
+    }, 400);
   };
-}, 120)
+}, 90)
