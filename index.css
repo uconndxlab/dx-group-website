@@ -48,10 +48,25 @@ h3{
 .header-text{
     background-image: url(img/square-background.svg);
     background-repeat: no-repeat;
-    margin-top: 116px;
     background-position: center;
     background-size: 1500px;
+    margin-top: 120px;
 }
+
+@media (max-width:991px){
+    .header-text{
+        background-size: 890px;
+    }
+}
+
+@media (max-width:768px){
+    .header-text{
+        padding:124px 0px;
+        background-image: url(img/square-background-tablet.svg);
+        background-size: 600px;
+    }
+}
+
 h1{
     color: black;
     font-family: 'raleway', sans-serif;
@@ -77,7 +92,7 @@ h1{
 h1{
     color: black;
     font-family: 'raleway', sans-serif;
-    font-size: 90px!important;
+    font-size: 89px!important;
     font-weight: 600!important;
 }
 
@@ -87,12 +102,23 @@ h1{
 }
 }
 
+
+@media (max-width: 576px){
+    .header-text{
+        background-image: url(img/square-background-mobile.svg);
+        background-size: 450px;
+        padding: 100px 0px;
+    
+    }
+
+}
+
+
+
 /*================ intro text ================*/
 .intro-text h2{
     font-family: 'Raleway', sans-serif;
-    font-size: 25px;
     color: black;
-    margin-top: 100px;
     padding-left: 0px;
 }
 
@@ -109,6 +135,12 @@ span.blue{
 .intro-text{
     margin: 100px 0px;
 }
+
+@media(max-width:768px){
+    .intro-text{
+        margin: 60px 0px;
+    }
+}    
 
 /*============== capabilities =============*/
 @media (max-width:767px){
@@ -202,10 +234,6 @@ button.btn.btn-primary:hover{
     margin-bottom: 0px;
 }
 
-.contact a{
-    color: #4563fc!important;
-}
-
 .person-att{
     padding: 20px; 
     background: white;
@@ -228,6 +256,10 @@ button.btn.btn-primary:hover{
 /*=============== about us ==============*/
 .contact{
     padding: 80px 0px;
+}
+
+.contact a{
+    color: #4563fc!important;
 }
 
 form input{
@@ -272,8 +304,11 @@ form button:hover{
 form label{
     font-family: 'roboto', sans-serif;
 }
-
+.contact img{
+    height: 16px;
+}
 /*======== navbar hover effect =========*/
+@media (min-width:991px){
 nav.shift ul li a {
     position:relative;
     z-index: 1;
@@ -308,4 +343,5 @@ nav.shift ul li a {
 nav ul li a:after,
 nav ul li a:before {
   transition: all .3s;
+}
 }
