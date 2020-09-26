@@ -261,7 +261,7 @@ span.blue{
 /*============== capabilities =============*/
 @media (max-width:767px){
     .capabilities-col{
-        margin-top: 50px;
+        margin-top: 30px;
     }
 }
 .capabilities{
@@ -412,6 +412,12 @@ display: block;
 }
 
 /*=============== about us ==============*/
+@media (max-width:767px){
+    form{
+        margin-top: 50px;
+    }
+}
+
 .contact{
     padding: 80px 0px;
 }
