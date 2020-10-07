@@ -21,15 +21,22 @@ h3{
 }
 /*============ navbar =============*/
 .navbar{
-    padding: 20px 0px!important;
+    padding: 16px 0px!important;
     background-color: white;
-    box-shadow: 0px -5px 7px #000000;
+    box-shadow: 0px 2px 2px rgba(0,0,0,.1);
 }
 
 .navbar-light .navbar-nav a.nav-link, a.navbar-brand{
     color: black!important;
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     padding: 8px 10px;
+}
+
+.navbar.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    z-index: 1;
 }
 
 @media (min-width: 992px){
@@ -133,7 +140,12 @@ h3{
 }
 /*============= header image =============*/
 .header-text{
-    margin-top: 120px;
+    margin-top: 86px;
+}
+
+#text{
+margin-top: 92px;
+
 }
 
 @media (max-width:769px){
@@ -170,7 +182,7 @@ h1{
 h1{
     color: black;
     font-family: 'raleway', Arial, Helvetica, sans-serif;
-    font-size: 89px!important;
+    font-size: 87px!important;
     font-weight: 600!important;
     position: absolute!important;
     top: 277px;
@@ -198,7 +210,7 @@ h1{
 
 @media (max-width: 576px){
     h1{
-        margin-top: -79%!important;
+        margin-top: -74%!important;
         margin-bottom: 120px!important;
         position: relative!important;
         top:0px
@@ -211,6 +223,13 @@ h1{
 }
 }
 
+@media (max-width: 576px){
+    .header-text{
+        margin-top:0px
+    }
+
+}
+
 @media (min-width: 576px) and (max-width: 769px){
     h1{
         top: -100px;
@@ -219,7 +238,7 @@ h1{
     }
 
     .header-text{
-        margin-top:60px
+        margin-top:0px
     }
 
     .svg-bg-mobile{
@@ -228,6 +247,8 @@ h1{
     }
 
 }
+
+
 
 
 
@@ -528,22 +549,19 @@ nav ul li a:before {
 /*======= map =======*/
 @media (max-width: 576px){
 iframe{
-width: 350px;
+width: 300px;
 }
 }
 
 /*#cap {
     height: 80px;
 }
-
 #fees {
     height: 80px;
 }
-
 #team {
     height: 80px;
 }
-
 #contact {
     height: 80px;
 }*/
