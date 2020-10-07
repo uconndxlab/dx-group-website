@@ -17,6 +17,10 @@
     <!-- UConn Banner -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/uconn/banner@2.0.0/banner.css">
     
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/michalsnik/aos@2.3.4/dist/aos.css">
+
+
     <title>Digital Experience Lab</title>
   </head>
   <body>
@@ -134,7 +138,7 @@
     </div>
    
 
-    <div class="container intro-text">
+    <div class="container intro-text" data-aos="fade-left">
         <h2 class="col-10">Supporting Research at UConn Through <span class="blue">Digital Innovation.</span></h2>
         <p class="col-11">With its multidisciplinary team composed of Digital Media & Design faculty members Brian Daley, Joel Salisbury, and Michael Vertefeuille, and assistance from staff, graduate students, and paid interns, the DX Group offers collective decades of experience in web design, UI / UX design, application development, and technological innovation.
 
@@ -145,13 +149,13 @@
     <section class="capabilities">
         <div class="container">
             <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-down">
                 <h2>Capabilities</h2>
                 <a id="hide-btn-2" href="#contact"><button type="button" class="btn btn-primary">Get Started</button></a>
             </div>
            
             <div class="col-md-8 capabilities-col">
-                <div class="row">
+                <div class="row" data-aos="fade-left">
                     <div class="col-md">
                         <img src="img/code-icon.svg">
                         <h3>App Development</h3>
@@ -188,7 +192,7 @@
     
 
     
-    <section class="fees">
+    <section class="fees" data-aos="fade-right">
         <div class="container">
             <h2>Fees</h2>
             <p>The Digital Experience Group is a University service center with the ability to conduct internal billing as well as participate in grant proposal submissions. Rates are as follows:</p>
@@ -235,7 +239,7 @@
         <div class="container">
             <h2>Meet Our Team.</h2>
             <div class="row">
-                <div class="person col-md">
+                <div class="person col-md" data-aos="flip-left">
                     <img src="img/daley-400x400.jpg">
                     <div class="person-att">
                         <h4 id="name">Brian Daley</h4>
@@ -243,7 +247,7 @@
                         <p><a id="email" href="mailto:brian@uconn.edu">brian@uconn.edu</a></p>
                     </div>
                 </div>
-                <div class="person col-md">
+                <div class="person col-md" data-aos="flip-left" data-aos-delay="500">
                     <img src="img/placeholder.jpg">
                     <div class="person-att">
                         <h4 id="name">Joel Salisbury</h4>
@@ -251,7 +255,7 @@
                         <p><a id="email" href="mailto:joel@uconn.edu">joel@uconn.edu</a></p>
                     </div>
                 </div>
-                <div class="person col-md">
+                <div class="person col-md" data-aos="flip-left" data-aos-delay="1000">
                   <img src="img/vert.jpg">
                   <div class="person-att">
                       <h4 id="name">Michael Vertefeuille</h4>
@@ -259,28 +263,28 @@
                       <p><a id="email" href="mailto:vert@uconn.edu">vert@uconn.edu</a></p>
                   </div>
                 </div>
-                <div class="person col-md">
+                <div class="person col-md" data-aos="flip-left">
                   <img src="img/burr.jpg">
                   <div class="person-att">
                       <h4 id="name">Harrison Burr</h4>
                       <p id="title">Undergraduate UX/Web Specialist</p>
                   </div>
                 </div>
-              <div class="person col-md">
+              <div class="person col-md" data-aos="flip-left" data-aos-delay="500">
                 <img src="img/placeholder.jpg">
                 <div class="person-att">
                     <h4 id="name">Emily Ha</h4>
                     <p id="title">Undergraduate UX/Web Specialist</p>
                 </div>
               </div>
-              <div class="person col-md">
+              <div class="person col-md" data-aos="flip-left" data-aos-delay="1000">
                 <img src="img/lacroix.png">
                 <div class="person-att">
                     <h4 id="name">Natalie Lacroix</h4>
                     <p id="title">Undergraduate UX/Web Specialist</p>
                 </div>
               </div>
-                <div class="person col-md">
+                <div class="person col-md" data-aos="flip-left">
                     <img src="img/mueller.png">
                     <div class="person-att">
                         <h4 id="name">Alex Mueller</h4>
@@ -332,11 +336,15 @@
 
     
 
-    <!-- Optional JavaScript -->
-    <script src="main.js"></script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/michalsnik/aos@2.3.4/dist/aos.js"></script>
+    
+    <!-- Optional JavaScript -->
+    <script src="main.js"></script>
+
   </body>
 </html>
