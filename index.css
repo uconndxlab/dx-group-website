@@ -368,12 +368,17 @@ display: block;
 /*========= fees ============*/
 .fees{
     padding-top: 60px;
+
 }
 
 .fees td{
     font-family: 'roboto', Arial, Helvetica, sans-serif!important;
     font-size: 16px!important;
     padding-left: 15px!important;
+}
+
+.fees table{
+    margin-bottom: 0px;
 }
 
 /*========== team ==========*/
