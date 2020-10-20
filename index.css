@@ -368,6 +368,7 @@ display: block;
 /*========= fees ============*/
 .fees{
     padding-top: 60px;
+    background-color: #f7f7f7;
 
 }
 
@@ -546,27 +547,98 @@ nav ul li a:before {
 }
 }
 
-/*======== type writer =========*/
+/*========== type writer =========*/
 #text{
     height: 173px;
 }
 
-/*======= map =======*/
+/*============ map =============*/
 @media (max-width: 576px){
 iframe{
 width: 300px;
 }
 }
 
-/*#cap {
-    height: 80px;
+/*=========== projects ============*/
+.modal-row{
+    margin-top: 30px;
 }
-#fees {
-    height: 80px;
+.projects{
+    margin-top: 80px;
+    padding-bottom: 80px;
 }
-#team {
-    height: 80px;
+
+.projects .row img:hover{
+    cursor: pointer;
 }
-#contact {
-    height: 80px;
-}*/
+
+.projects h2{
+    margin-bottom: 50px;
+}
+
+.projects .modal-content{
+    padding: 30px;
+}
+
+.projects .col img:hover{
+    cursor: pointer;
+}
+
+.modal-img-container {
+    position: relative;
+    box-shadow: 1px 1px 8px #56565682;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+.overlay1{
+    background-color: #d35b3fdb;
+}
+
+.overlay2{
+    background-color: #000000d1;
+}
+
+.overlay3{
+    background-color: #1d2f5feb;
+}
+  
+.overlay4{
+    background-color: #313e2de3;
+}
+
+  .modal-img-container:hover .overlay {
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .text {
+    font-family: "raleway", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text p{
+      margin-bottom: 0px;
+  }
