@@ -640,5 +640,15 @@ width: 300px;
   }
 
   .text p{
-      margin-bottom: 0px;
+    margin-bottom: 10px;
+    line-height: 18px!important;
+  }
+
+  @media (max-width:768px){
+    .modal-img-container{
+        margin-bottom: 30px;
+    }
+    .modal-row{
+        margin-top: 0px;
+    }
   }
