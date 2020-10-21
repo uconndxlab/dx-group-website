@@ -566,7 +566,7 @@ width: 300px;
 }
 .projects{
     margin-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 .projects .row img:hover{
@@ -621,6 +621,14 @@ width: 300px;
   
 .overlay4{
     background-color: #313e2de3;
+}
+
+.overlay5{
+    background-color: #243440d4;
+}
+
+.overlay6{
+    background-color: #341e5dd6;
 }
 
   .modal-img-container:hover .overlay {
