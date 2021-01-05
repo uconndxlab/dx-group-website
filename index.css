@@ -639,6 +639,10 @@ color: #4563fc;
     background-color: #341e5dd6;
 }
 
+.overlay7{
+    background-color: #292c31db;
+}
+
   .modal-img-container:hover .overlay {
     height: 100%;
     cursor: pointer;
