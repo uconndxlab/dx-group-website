@@ -647,7 +647,20 @@ color: #4563fc;
     height: 100%;
     cursor: pointer;
   }
+
+  .modal-header{
+    padding-bottom: 0px!important;
+    border: 0!important;
+  }
+
+  .modal-body{
+      padding-top: 0px!important;
+  }
   
+  .modal-body p{
+    margin-top: 20px!important;
+  }
+
   .text {
     font-family: "raleway", Arial, Helvetica, sans-serif;
     font-weight: 600;
