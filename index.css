@@ -5,7 +5,7 @@ html {
 p{
     font-family: "Roboto", Arial, Helvetica, sans-serif!important;
     font-size: 16px!important;
-    line-height: 32px!important;
+    line-height: 30px!important;
 }
 
 h2{
@@ -686,3 +686,66 @@ color: #4563fc;
         margin-top: 0px;
     }
   }
+
+  /*=================== hire section ==================*/
+  #hire .row{
+    background-color: #171717;
+    margin: 60px 0px 30px 0px;
+    color: white;
+    border-radius: 7px;
+    padding: 40px 40px 30px 40px;
+  }
+
+  #hire .row h2{
+      color:white;
+  }
+
+  #hire .row button.btn.btn-primary {
+    font-size: 16px;
+    padding: 5px 22px;
+    font-weight: 500;
+    color: #000;
+    background-color: #ffffff;
+    border: #ffffff 1.5px solid;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    transition: .2s ease-in-out;
+    margin-bottom: 30px;
+}
+
+#hire .row button.btn.btn-primary:hover{
+    background-color: #171717;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+/*==================== job page ==================*/
+section.job-header {
+    padding: 70px;
+    background: whitesmoke;
+}
+
+.job-sec hr#purple{
+    border-bottom: 3px solid #4463fc;
+    width: 100px;
+    margin-left: 0;
+    margin-top: 8px;
+    border-top: 0px;
+    margin-bottom: 30px;
+}
+
+.job-sec{
+    margin: 40px 0px;
+}
+
+.job-sec li{
+    margin: 10px 0px;
+}
+
+.job-sec a{
+    color:#4563fc;
+}
+
+.job-sec a:hover{
+    color:#4563fc;
+}
