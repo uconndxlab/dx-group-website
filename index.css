@@ -593,9 +593,9 @@ color: #4563fc;
 
 .modal-img-container {
     position: relative;
-    box-shadow: 1px 1px 8px #56565682;
-  }
-  
+    box-shadow: 1px 1px 4px #56565642;
+}
+
   .image {
     display: block;
     width: 100%;
@@ -639,6 +639,10 @@ color: #4563fc;
 
 .overlay7{
     background-color: #292c31db;
+}
+
+.overlay8 {
+    background-color: #020439bd;
 }
 
   .modal-img-container:hover .overlay {
