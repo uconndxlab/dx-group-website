@@ -645,6 +645,10 @@ color: #4563fc;
     background-color: #020439bd;
 }
 
+.overlay9 {
+    background-color: #242631c9;
+}
+
   .modal-img-container:hover .overlay {
     height: 100%;
     cursor: pointer;
@@ -688,6 +692,14 @@ color: #4563fc;
         margin-top: 0px;
     }
   }
+
+  @media (min-width:768px){
+    .row.modal-row .col-md-6 {
+        margin-bottom: 30px;
+    }
+  }
+
+
 
   /*=================== hire section ==================*/
   #hire .row{
