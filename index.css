@@ -19,6 +19,10 @@ h3{
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-size: 21px!important;
 }
+
+a{
+    color: #4563fc!important;
+}
 /*============ navbar =============*/
 .navbar{
     padding: 16px 0px!important;
