@@ -821,3 +821,23 @@ footer a{
     margin: 0px 10px;
     color: black!important;
 }
+
+/*=========== typewriter text ============*/
+span.blink{
+    -webkit-animation: blinker 1s linear infinite;
+            animation: blinker 1s linear infinite;
+}
+
+@-webkit-keyframes blinker{
+    50%{
+        opacity: 0%;
+    }
+
+}
+
+@keyframes blinker{
+    50%{
+        opacity: 0%;
+    }
+
+}

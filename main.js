@@ -1,25 +1,17 @@
-var p = document.getElementById('text');
-p.innerHTML = '';
-var n = 0;
-var str = 'Digital Experience Group';
-var typeTimer = setInterval(function() {
-  n = n + 1;
-  p.innerHTML = str.slice(0, n);
-  if (n === str.length) {
-    clearInterval(typeTimer);
-    p.innerHTML = str;
-    n = 0;
-    setInterval(function() {
-      if (n === 0) {
-        p.innerHTML = str + "|"
-        n = 1;
-      } else {
-        p.innerHTML = str
-        n = 0;
-      };
-    }, 400);
-  };
-}, 90)
+var textArray = ["Digital Experience Group"];
+var textPosition = 0;
+var speed = 100;
+var span
+
+typewriter = () => {
+  document.querySelector('#text').innerHTML = textArray[0].substring(0,textPosition) + "<span class='blink'>|</span>"
+
+  if(textPosition++ != textArray[0].length)
+    setTimeout(typewriter,speed);
+}
+
+window.addEventListener("load", typewriter)
+
 
 
 /**
