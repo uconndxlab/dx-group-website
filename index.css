@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    overflow-x:hidden;
   }
   
 p{
@@ -462,7 +463,8 @@ display: block;
 }
 
 .person{
-    margin: 0px 40px 107px 0px
+    margin: 0px 0px 40px 0px;
+    width:auto!important;
     
 }
 
