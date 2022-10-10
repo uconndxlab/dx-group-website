@@ -24,6 +24,91 @@ h3{
 a{
     color: #4563fc!important;
 }
+/*============ uconn banner =============*/
+nav.navbar a, nav.upper-nav a{
+    text-decoration:none;
+  }
+  
+  .upper-nav a:hover{
+    text-decoration:underline;
+  }
+  
+  .navbar{
+    padding: 0px 0px 16px 0px!important;
+  
+  }
+  
+  .navbar .navbar-brand{
+    padding-top: 0px;
+    font-family: 'Proxima Nova';
+    font-weight: 500;
+    font-size: 24px;
+  }
+  
+  .no-parent{
+    padding-top: 30px!important;
+  }
+  
+  .navbar-light .navbar-nav a.nav-link, a.navbar-brand{
+    color: black!important;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    padding: 8px 10px;
+  }
+  
+  a.parent-title{
+    font-size: 13px;
+    padding: 0px 10px 0 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black!important;
+    font-family: 'Proxima Nova';
+  }
+  
+  .upper-nav{
+    padding: 20px 0px 10px 0px;
+  }
+  
+  .upper-nav, .navbar {
+    padding-left:15px;
+  }
+  
+  .navbar-brand {
+    margin-left:5px;
+  }
+  
+  #uconn-banner .row-container {
+  width: 100%;
+  margin: 0px auto;
+  box-sizing: border-box;
+  padding-top:0px!important;
+  padding-bottom:0px!important;
+  }
+  
+  #uconn-banner .banner-icon-white {
+    fill:#000E2F;
+    height: 100%;
+    pointer-events: none;
+  }  
+  
+  
+  #uconn-banner #uconn-header-container__white #uconn-search:before, #uconn-banner #uconn-header-container__white #uconn-az:before, #uconn-banner #uconn-header-container__white.alternative #button-container #uconn-search:before, #uconn-banner #uconn-header-container__white .alternative #button-container #uconn-az:before{
+    box-shadow:inset 0 2px 0 0 #000E2F;
+  }
+  
+  #uconn-banner #button-container .btn, #uconn-banner #button-container .btn:hover, #uconn-banner #button-container .btn:visited, #uconn-banner #button-container .btn:focus{
+  background-color:transparent!important;
+  border:0px!important;
+  }
+  
+  #uconn-banner .row-container #uconn-az:focus+div:not(.popup-container), #uconn-banner .row-container #uconn-az:hover+div:not(.popup-container), #uconn-banner .row-container #uconn-search:focus+div:not(.popup-container), #uconn-banner .row-container #uconn-search:hover+div:not(.popup-container) {
+  top: 60px!important;
+  }
+  
+  @media (min-width: 50em) {
+    .uconn-banner .uconn-banner__title {
+        display: initial;
+    }
+  }
 /*============ navbar =============*/
 .navbar{
     padding: 0px 0px 16px 0px!important;
@@ -42,7 +127,7 @@ a{
 .navbar-light .navbar-nav a.nav-link, a.navbar-brand{
     color: black!important;
     font-family: 'roboto', Arial, Helvetica, sans-serif;
-    padding: 8px 10px;
+    padding: 8px 5px;
 }
 
 .navbar.sticky {
@@ -65,6 +150,8 @@ a.parent-title{
 .upper-nav{
     padding: 20px 0px 0px 0px
 }
+
+
 
 @media (max-width:992px){
     .upper-nav{
@@ -496,7 +583,6 @@ form input{
     padding: 4px 0px;
     width: 100%;
     border: 0;
-    -webkit-border-radius: 0;
     border-bottom: 1px solid black;
 }
 
