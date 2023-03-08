@@ -557,11 +557,19 @@ display: block;
 
 .person img{
     width: 250px;
+    height: 250px;
 }
 
 .team .row{
-    justify-content: center;
+    justify-content: flex-start;
 }
+
+@media (min-width: 768px) {
+    .team .col-md {
+        flex-grow: 0;
+    }
+}
+
 
 /*=============== about us ==============*/
 @media (max-width:767px){
