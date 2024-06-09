@@ -539,6 +539,42 @@ button.btn.btn-secondary:hover {
 }
 
 /*========== team ==========*/
+
+.team-container{
+    margin: 0 auto !important;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    padding: 0 !important;
+    gap: 20px;
+
+}
+
+div.person.col-md{
+    padding: 0!important;
+}
+/*----responsiveness for team grid layout-----*/
+@media (min-width: 680px){
+    .team-container{
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 900px){
+    .team-container{
+    grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 1250px){
+    .team-container{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    }
+}
+
 .team {
     margin-top: 80px;
     padding-top: 80px;
@@ -553,6 +589,9 @@ button.btn.btn-secondary:hover {
     margin-bottom: 50px;
 }
 
+.person{
+    margin: 0 !important;
+}
 .person #name {
     color: black;
     margin-top: 12px;
@@ -586,7 +625,7 @@ button.btn.btn-secondary:hover {
 }
 
 .person {
-    margin: 0px 0px 40px 0px;
+    margin: 0;
     width: auto !important;
 
 }
@@ -617,14 +656,13 @@ button.btn.btn-secondary:hover {
     padding: 0px;
 }
 
-.team .row {
-    justify-content: flex-start;
-}
+
 
 @media (min-width: 768px) {
     .team .col-md {
         flex-grow: 0;
     }
+
 }
 
 
