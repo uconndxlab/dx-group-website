@@ -544,7 +544,7 @@ button.btn.btn-secondary:hover {
     margin: 0 auto !important;
     /* border: 2px solid red; */
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     justify-items: center;
     align-items: center;
@@ -556,23 +556,6 @@ button.btn.btn-secondary:hover {
 
 div.person.col-md{
     padding: 0!important;
-}
-/*----responsiveness for team grid layout-----*/
-@media (min-width: 680px){
-    .team-container{
-    grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media (min-width: 900px){
-    .team-container{
-    grid-template-columns: repeat(3, 1fr);
-    }
-}
-@media (min-width: 1250px){
-    .team-container{
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    }
 }
 
 .team {
@@ -594,7 +577,7 @@ div.person.col-md{
 }
 .person #name {
     color: black;
-    margin-top: 12px;
+    /* margin-top: 15px; */
     font-size: 21px;
     font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
@@ -618,27 +601,37 @@ div.person.col-md{
 }
 
 .person-att {
-    padding: 20px;
+    padding: 0px 20px;
     background: white;
-    width: 250px;
-    height: 145px;
+    width: 200px; /*--width same as width for img*/
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .person {
+    padding: 0;
     margin: 0;
     width: auto !important;
 
 }
 
 .linkedin-link {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
 .person > img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 
 .display-flex {
@@ -656,6 +649,47 @@ div.person.col-md{
     padding: 0px;
 }
 
+.name-and-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+}
+
+/*----responsiveness for team grid layout-----*/
+
+@media (min-width: 680px){
+    .linkedin-logo {
+        height: 25px;
+        width: 25px;
+        margin-left: 5px;
+        padding: 1px;
+    }
+    .person > img {
+        width: 260px;
+        height: 260px;
+    }
+    .person-att {
+        padding: 10px 20px;
+        background: white;
+        width: 260px; /*--width same as width for img*/
+        height: 180px;
+    }
+    
+    .team-container{
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 900px){
+    .team-container{
+    grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 1250px){
+    .team-container{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    }
+}
 
 
 @media (min-width: 768px) {
@@ -675,6 +709,8 @@ div.person.col-md{
 
 .contact {
     padding: 80px 0px;
+    margin: 0 10% !important;
+    width: auto;
 }
 
 .contact .email {
