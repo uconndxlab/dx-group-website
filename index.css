@@ -5,8 +5,14 @@ html {
 
 p {
     font-family: "Roboto", Arial, Helvetica, sans-serif !important;
-    font-size: 16px !important;
-    line-height: 30px !important;
+    font-size: 14px !important;
+    line-height: 25px !important;
+}
+
+@media(min-width:680px){
+    p{
+        font-size: 16px !important;
+    }
 }
 
 h2 {
@@ -575,14 +581,15 @@ div.person.col-md{
 .person{
     margin: 0 !important;
 }
-.person #name {
+.person .name {
     color: black;
     /* margin-top: 15px; */
-    font-size: 21px;
+    font-size: 18px;
     font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
 
-.person p#title {
+.person p.title {
+    font-size: 0.6rem;
     color: black;
     margin-bottom: 0px;
     line-height: 21px !important;
@@ -594,7 +601,7 @@ div.person.col-md{
 
 
 
-.person a#email {
+.person a.email {
     color: #4563fc;
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     margin-bottom: 0px;
@@ -603,7 +610,7 @@ div.person.col-md{
 .person-att {
     padding: 0px 20px;
     background: white;
-    width: 200px; /*--width same as width for img*/
+    width: 150px; /*--width same as width for img*/
     height: 180px;
     display: flex;
     flex-direction: column;
@@ -630,8 +637,8 @@ div.person.col-md{
 
 
 .person > img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 .display-flex {
@@ -658,6 +665,9 @@ div.person.col-md{
 /*----responsiveness for team grid layout-----*/
 
 @media (min-width: 680px){
+    .person .name{
+        font-size: 21px;
+    }
     .linkedin-logo {
         height: 25px;
         width: 25px;
@@ -1064,7 +1074,7 @@ section.job-header {
     }
 }
 
-.job-sec hr#purple {
+.job-sec hr.purple {
     border-bottom: 3px solid #4463fc;
     width: 100px;
     margin-left: 0;
